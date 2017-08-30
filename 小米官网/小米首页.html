@@ -1,0 +1,751 @@
+<!DOCTYPE <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>小米商城 - 小米6、红米Note 5A、小米5X、小米笔记本官方网站</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		@-webkit-keyframes in{
+		0%{opacity:0}
+		100%{opacity:1}
+		}
+		@-webkit-keyframes out{
+			0%{opacity:1}
+			100%{opacity:0}
+		}
+		.head{
+			height: 40px;
+			background:#333; 
+		}
+		.head .a1{
+			width: 1126px;
+			height: 40px;
+			background: #333;
+			margin: 0 auto;
+
+		}
+		
+		.head .a1 .b1{
+			width: 580px;
+			height: 40px;
+			line-height: 40px;
+			float: left;
+			
+		}
+		.head .a1 a{
+			text-decoration: none;
+			color: #b0b0b0;
+			font-size: 12px;
+			font-family: "微软雅黑";
+		}
+		.head .a1 .c1{
+			width: 125px;
+			height: 40px;
+			line-height: 40px;
+			background: #424242;
+			text-align: center;
+			float: right;
+			
+		}
+		.head .a1 .c1 .c11{
+			width: 320px;
+			height: 100px;
+			line-height: 100px;
+			background: #fff;
+			box-shadow: 0px 0px 10px gray;
+			position: absolute;
+			top: 40px;
+			right: 120px;
+			display: none;
+		}
+		.head .a1 .c1 .c11{
+			font-size: 12px;
+			font-family: "微软雅黑";
+			text-align:center;
+		}
+		.head .a1 .d1{
+			width: 143px;
+			height: 40px;
+			line-height: 40px;
+			float: right;
+		}
+		
+		.head .a1 a:hover{
+			color:#fff;
+		}
+		.head .a1 .c1:hover{
+			background: #fff;
+		}
+		.head .a1 .c1:hover >.c11{
+			z-index: 1;
+			display: block;
+
+		}
+		.head .a1 .c1 a:hover{
+			color: #ff9933; 
+		}
+		.a2{
+			width: 1126px;
+			height: 100px;
+			margin: 0 auto;
+			
+			position: relative;
+		}
+		.a2 .b2{
+			width: 55px;
+			height: 55px;
+			background: url("img/mi/1.png");
+			position: absolute;
+			top: 22px;
+			
+		}
+		
+		.a2 .c2{
+			width: 820px;
+			height: 100px;
+			float: left;
+		}
+		.a2 .c2 .c21{
+			width: 1126px;
+			height: 230px;
+			border-top: 1px solid #e6e6e6;
+			background: #fff;
+			position: absolute;
+			top: 70px;
+			left: -170px;
+			display: none;
+		}
+		.a2 .c2 .c21 .c211 {
+			height: 230px;
+			width: 160px;
+			float: left;
+		}
+		.a2 .c2 .c21 .shuxian{
+			width:18px;
+			height:150px;
+			border-left:1px solid #e6e6e6;
+			margin-left: 10px;
+			margin-top: 30px;
+			float: left;
+		}
+		.a2 .c2 .c21 .c211 .massger{
+			height: 18px;
+			width: 80px;
+			display: inline-block;
+			border: 1px solid #ff6700;
+			color: #ff6700;
+			margin-left: 40px;
+			text-align: center;
+			font-size: 12px;
+			font-family: "微软雅黑";
+			position: absolute;
+		}
+		.a2 .c2 .c21 .c211 .img{
+			width: 160px;
+			height: 110px;
+			margin-top: 40px;
+			margin-bottom:10px; 
+			
+		}
+		.a2 .c2 .c21 .c211 .desc .name{
+			font-size: 12px;
+			color: #000;
+		}
+		.a2 .c2 .c21 .c211 .desc .name1{
+			font-size: 14px;
+			color: #ff6700; 
+		}
+		.a2 .c2 .c21 .c211 .desc .text-center{
+				text-align: center;
+			}
+		.a2 .c2 .c21 .c211 .desc{
+			line-height: 170%;
+		}
+		.a2 .d2{
+			width: 300px;
+			height: 100px;
+			line-height: 100px;
+			position: relative;
+			float: right;
+		}
+		.a2 .c2 ul{
+			position: absolute;
+			top: 30px;
+			left: 170px;
+		}
+		.a2 .c2 ul li{
+			height: 48px;
+			list-style:none;
+			padding: 10px;
+			float: left;
+			cursor: pointer;
+		}
+		.a2 .c2 ul li:hover{
+			color: red;
+		}
+		.a2 .c2 ul li:hover >.c21{
+			z-index: 2;
+			display: block;
+		}
+		.a2 .d2 .input1{
+			width:250px; 
+			height:50px;
+			position: absolute;
+			top: 25px;
+			left: 0;
+		}
+		.a2.d2 .meo1 a{
+			float: right;
+		}
+		.a2 .d2 .input2{
+			width:50px; 
+			height:50px;
+			position: absolute;
+			top: 25px;
+			right: 0;
+		}
+		.images{
+			width: 1126px;
+			height: 460px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.images .a3{
+			width: 1126px;
+			height: 460px;
+			position: absolute;
+			
+		}
+		.images .a3 .img{
+			width:1126px;
+			height:460px;
+			background:url('https://i1.mifile.cn/a4/xmad_15036346601839_FecjP.jpg');
+			position:absolute;
+			top:0px;
+			left:0px;
+			opacity:0;
+		}
+		.images .a3 .img:nth-child(2){
+		background:url('https://i1.mifile.cn/a4/xmad_15035580920396_bWePf.jpg');
+		}
+		.images .a3 .img:nth-child(3){
+			background:url('https://i3.mifile.cn/a4/xmad_15035842972816_fkMxC.jpg');
+		}
+		.images .a3 .img:nth-child(4){
+			background:url('https://i3.mifile.cn/a4/xmad_15034856177873_hzfGx.jpg');
+		}
+		.images .a3 .img:nth-child(5){
+			background:url('https://i3.mifile.cn/a4/xmad_15033953789128_uSFHO.jpg');
+		}
+		.images .a3 .img:nth-child(6){
+			background:url('https://i3.mifile.cn/a4/xmad_14958834209224_inThg.jpg');
+		}
+		.images .a3 .btn{
+			position:absolute;
+			right:30px;
+			bottom:20px;
+	    }
+		.images .a3 .btn li{
+			list-style:none;
+			width:10px;
+			height:10px;
+			background:#757575;
+			display:inline-block;
+			border-radius:5px;
+			margin-left:5px;
+			cursor:pointer;
+		}
+		.images .a31{
+			width: 234px;
+			height: 460px;
+			background-color: rgba(0,0,0,0.6);
+			z-index: 1;
+			position: absolute;
+		}
+		.images .a31 ul{
+			padding-top: 20px;
+		}
+		.images .a31 ul li{
+			list-style:none;
+			width:214px;
+			
+			padding-left: 20px;
+			position: relative;
+		}
+		.images .a31 li .a32{
+			text-decoration: none;
+			color: #fff;
+			font-size: 14px;
+			font-family: "微软雅黑";
+			display:block;
+			padding-left:10px;
+			height:40px;
+			line-height:40px;
+		}
+		.images .a31 .imags .a33{
+			color: #000;
+		}
+		.images .a31 .a311{
+			position: relative;
+		}
+		.images .a31 .a311 .a3111{
+			width: 270px;
+			height: 460px;
+			border-top: 1px solid #e6e6e6;
+			background: #fff;
+			position: absolute;
+			top: -380px;
+			left: 214px;
+			z-index: 1;
+			
+		}
+		.images .a31 b{
+			position: absolute;
+			right: 25px; 
+		}
+		.images .a31 li:hover{
+			background: #ff6700;
+		}
+		.images .a3 .btn li:hover{
+			background:#fff;
+		}
+		.images .a3 .show{
+			-webkit-animation:in 3s;
+			opacity:1;
+		}
+		.images .a3 .hide{
+			-webkit-animation:out 3s;
+			opacity:0;
+		}
+		.a4{
+			width: 1126px;
+			height: 200px;
+			margin: 0 auto;
+			
+		}
+		.a4 .a41{
+			width: 234px;
+			height: 170px;
+			margin-top: 15px;
+			
+			background: #5f5750;
+			float: left;
+		}
+		.a4 .a41 ul{
+			list-style:none;
+		}
+		.a4 .a41 ul li a{
+			height: 10px;
+			width: 50px;
+			font-size: 12px;
+			font-family: "微软雅黑";
+			color: rgba(255,255,255,0.7);
+			text-decoration: none;
+			padding-left:10px;
+			height:40px;
+			line-height:40px;
+			margin-top: 20px;
+			margin-left: 10px;
+			padding-top: 10px;
+			float: left;
+		}
+		.a4 .a41 ul li a:hover{
+			color: #fff;
+		}
+		.a4 .a42{
+			width: 284px;
+			height: 170px;
+			margin-top: 15px;
+			margin-left: 13px;
+			float: left;
+		}
+		.a5{
+			width: 1126px;
+			height: 438px;
+			border: 1px solid #000;
+			margin: 0 auto;
+		}
+		.a5 .a5-head{
+			width: 1126px;
+			height: 58px;
+		}
+		.a5 .a5-body{
+			width: 1126px;
+			height: 380px;
+			
+		}
+		.a5 .a5-body-1{
+			width: 1126px;
+			height: 340px;
+			
+		}
+		.a5 .a5-head .title{
+			font-size: 22px;
+    		font-weight: 200;
+    		line-height: 58px;
+    		color: #333;
+		}
+		.a5 .a5-body .a5-body-1 .item {
+			height: 340px; 
+			width: 200px;
+			border-top:1px solid #ffac13;
+			background-color:#fafafa;
+			margin:0px 12px;
+			float: left;
+		}
+		.a5 .a5-body .a5-body-1 .item:nth-child(2){
+			border-top:1px solid #83c44e;
+		}
+		.a5 .a5-body .a5-body-1 .item:nth-child(3){
+			border-top:1px solid #2196f3;
+		}
+		.a5 .a5-body .a5-body-1 .item:nth-child(4){
+			border-top:1px solid #e53935;
+		}
+		.a5 .a5-body .a5-body-1 .item:nth-child(5){
+			border-top:1px solid #00c0a5;
+		}
+		.a5 .a5-body .a5-body-1 .img{
+			width: 160px;
+			height: 110px;
+			margin: 0 auto;
+			padding-top: 30px;
+		}
+		.a5 .a5-body .a5-body-1 .desc{
+			height: 100px;
+			
+			margin-top: 90px;
+		}
+		.a5 .a5-body .a5-body-1 .desc a{
+			text-decoration: none;
+			color: #000;
+		}
+		.a5 .a5-body .a5-body-1 .name {
+				color: #b0b0b0;
+				font-size: 12px;
+		}
+		.a5 .a5-body .a5-body-1 .name1 {
+				color: #ff6709;
+				
+		}
+		.a5 .a5-body .a5-body-1 .text-center{
+			text-align: center;
+			height: 18px;
+			margin: 5px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="a1">
+			<div class="b1">
+				<a href="https://www.mi.com/index.html">小米商城</a>
+				<span style="color:#424242">|</span>
+				<a href="http://www.miui.com/">MIUI</a>
+				<span style="color:#424242">|</span>
+				<a href="http://www.miliao.com/">米聊</a>
+				<span style="color:#424242">|</span>
+				<a href="http://game.xiaomi.com/hy/index.html">游戏</a>
+				<span style="color:#424242">|</span>
+				<a href="http://www.duokan.com/">多看阅读</a>
+				<span style="color:#424242">|</span>
+				<a href="https://i.mi.com/">云服务</a>
+				<span style="color:#424242">|</span>
+				<a href="https://jr.mi.com/index.html">金融</a>
+				<span style="color:#424242">|</span>
+				<a href="https://jr.mi.com/index.html">小米商城手机版</a>
+				<span style="color:#424242">|</span>
+				<a href="">问题反馈</a>
+				<span style="color:#424242">|</span>
+				<a href="">Select Region</a>
+			</div>
+			<div class="c1">
+				<a href="">
+					<i="c11">购物车</i>
+					<span>(0)</span>
+				</a>
+				<div class="c11">
+					购物车中还没有产品，赶紧选购吧！
+				</div>
+			</div>
+			<div class="d1">
+					<a href="">登录</a>
+					<span style="color:#424242">|</span>
+					<a href="">注册</a>
+					<span style="color:#424242">|</span>
+					<a href="">消息通知</a>
+		     </div>
+	    </div>
+	</div>
+	<div class="a2">
+		<div class="b2"></div>
+		<div class="c2">
+			<ul>
+				<li>小米手机
+					<div class="c21">
+						<div class="c211">
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/cn-index/xm6-320.png" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米6</div>
+								<div class="name1 text-center">2499元起</div>
+							</div>
+						</div>
+						<div class="shuxian"></div>
+						<div class="c211">
+							<div class="massger">新品</div>
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/cn-index/max2_toubu.png" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米Max 2</div>
+								<div class="name1 text-center">1699元起</div>
+							</div>
+						</div>
+						<div class="shuxian"></div>
+						<div class="c211">
+							<div class="massger">新品</div>
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/5x-2!160x110.jpg" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米5X</div>
+								<div class="name1 text-center">1299元起</div>
+							</div>
+						</div>
+						<div class="shuxian"></div>
+						<div class="c211">
+						    <div class="massger">下单立减500</div>
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/xiaomiNOTE2-320-220!160x110.jpg" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米Note 2</div>
+								<div class="name1 text-center">2799元起</div>
+							</div>
+						</div>
+						<div class="shuxian"></div>
+						<div class="c211">
+						    <div class="massger">下单立减500</div>
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/MIX-320-220!160x110.jpg" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米MIX</div>
+								<div class="name1 text-center">3499元起</div>
+							</div>
+						</div>
+						<div class="shuxian"></div>
+						<div class="c211">
+						    <div class="massger">下单立减200</div>
+							<div class="img">
+								<a href="">
+								<img src="https://c1.mifile.cn/f/i/g/2015/cn-index/5s-12!160x110.jpg" alt="小米6" width="160" height="110"></a>
+							</div>
+							<div class="desc">
+								<div class="name text-center">小米5S</div>
+								<div class="name1 text-center">1999元起</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>红米
+					<div class="c21">
+						红米
+					</div>
+				</li>
+				<li>平板 笔记本
+					<div class="c21">
+						平板 笔记本
+					</div>
+				</li>
+				<li>电视
+				    <div class="c21">
+						电视
+					</div></li>
+				<li>盒子 影音
+					<div class="c21">
+						盒子 影音
+					</div>
+				</li>
+				<li>路由器
+					<div class="c21">
+						路由器
+					</div>
+				</li>
+				<li>智能硬件
+					<div class="c21">
+						智能硬件
+					</div>
+				</li>
+				<li>服务</li>
+				<li>社区</li>
+			</ul>
+			
+		</div>
+		<div class="d2">
+			<form action="" method="get">
+				<input class="input1" placeholder="&nbsp;&nbsp;红米Note 5A">
+				<input class="input2" type="submit" value="搜索" />
+			</form>
+		</div>
+	</div>
+	<div class="images">
+		<div class="a3">
+			<div class="img show"></div>
+			<div class="img"></div>
+			<div class="img"></div>
+			<div class="img"></div>
+			<div class="img"></div>
+			<div class="img"></div>
+
+			<ul class="btn">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+			<div class="a31">
+				<ul>
+					<li><a href="" class="a32">手机 电话卡 <b>></b> </a></li>
+					<li><a href="" class="a32">笔记本 平板 <b>></b> </a></li>
+					<li><a href="" class="a32">电视 盒子 <b>></b> </a></li>
+					<li><a href="" class="a32">路由器 智能硬件 <b>></b> </a></li>
+					<li><a href="" class="a32">移动电源 电池 插线板<b>></b></a></li>
+					<li><a href="" class="a32">耳机 音响<b>></b></a></li>
+					<li><a href="" class="a32">保护套 贴膜<b>></b></a></li>
+					<li><a href="" class="a32">线材 支架 储存卡<b>></b></a></li>
+					<li><a href="" class="a32">箱包 服饰 鞋 眼镜<b>></b></a>
+						<div class="a311">
+							<div class="a3111">
+								<div class="imgs">
+									<a href="" class="a33">
+									<img src="https://c1.mifile.cn/f/i/g/2015/cn-index/xiangbao-80.jpg" alt="箱包" width="40" height="40">箱包</a>
+								</div>
+							</div>
+						</div>
+
+					</li>
+					<li><a href="" class="a32">米兔 生活周边<b>></b></a></li>
+				</ul>
+			</div>
+	</div>
+	<div class="a4">
+		<div class="a41">
+			<ul>
+				<li><a href="https://www.mi.com/compare/" >选购手机</a></li>
+				<li><a href="https://qiye.mi.com/" >企业团购</a></li>
+				<li><a href="https://order.mi.com/f">F码通道</a></li>
+				<li><a href="https://www.mi.com/micard/" >米粉卡</a></li>
+				<li><a href="https://huanxin.mi.com/" >以旧换新</a></li>
+				<li><a href="https://account.xiaomi.com" >话费充值</a></li>
+			</ul>
+		</div>
+		<div class="a42">
+			<a href="https://item.mi.com/product/10000029.html">
+				<img src="https://i3.mifile.cn/a4/xmad_14896582946593_xLfzt.jpg" width="284" height="170" alt="">
+			</a>
+		</div>
+		<div class="a42">
+			<a href="https://item.mi.com/product/10000057.html">
+				<img src="https://i3.mifile.cn/a4/xmad_1503586343943_FDmzX.jpg" width="284" height="170" alt="">
+			</a>
+		</div>
+		<div class="a42">
+			<a href="https://www.mi.com/miwifi3/">
+				<img src="https://i3.mifile.cn/a4/xmad_15033956861529_CMQJa.jpg" width="284" height="170" alt="">
+			</a>
+		</div>
+	</div>
+	<div class="a5">
+		<div class="a5-head">
+			<h2 class="title">小米明星单品</h2>
+		</div>
+		<div class="a5-body">
+			<div class="a5-body-1">
+				<div class="item">
+					<div class="img">
+						<a href="">
+						<img src="https://i3.mifile.cn/a4/xmad_14966625823457_RclIL.png" width="160" height="160" alt=""></a>
+					</div>
+					<div class="desc">
+						<a href="">
+						<div class="text-center">红米4X</div></a>
+						<div class="name text-center">4100mAh超长续航，8核处理器</div>
+						<div class="name1 text-center">699元起</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="img">
+						<a href="">
+						<img src="https://i3.mifile.cn/a4/xmad_14926862610682_UhkfS.png" width="160" height="160" alt=""></a>
+					</div>
+					<div class="desc">
+						<a href="">
+						<div class="text-center">小米MIX</div></a>
+						<div class="name text-center">6.4 全面屏，全身陶瓷机身</div>
+						<div class="name1 text-center">3499元起</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="img">
+						<a href="">
+						<img src="https://i3.mifile.cn/a4/73b8ebac-c91e-486d-8acf-23cf497dff30" width="160" height="160" alt=""></a>
+					</div>
+					<div class="desc">
+						<a href="">
+						<div class="text-center">小米5s Plus</div></a>
+						<div class="name text-center">5.7" 大屏双摄像头，轻薄金属机身</div>
+						<div class="name1 text-center">2299元起</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="img">
+						<a href="">
+						<img src="https://i1.mifile.cn/a1/pms_1490077058.71391368!220x220.png" width="160" height="160" alt=""></a>
+					</div>
+					<div class="desc">
+						<a href="">
+						<div class="text-center">小米电视4A 43英寸</div></a>
+						<div class="name text-center">享小米分期12期免息</div>
+						<div class="name1 text-center">2099元起</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="img">
+						<a href="">
+						<img src="https://i3.mifile.cn/a4/073b5ddc-9117-4668-adbe-878c928a79da" width="160" height="160" alt=""></a>
+					</div>
+					<div class="desc">
+						<a href="">
+						<div class="text-center">小米笔记本</div></a>
+						<div class="name text-center">更轻更薄，像杂志一样随身携带</div>
+						<div class="name1 text-center">3599元起</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".a3 .btn li").click(function(){
+				var index = $(this).index();
+				$(".a3 .img").eq(index).addClass("show").removeClass("hide").siblings(".show").removeClass("show").addClass("hide");
+			});
+		});
+	</script>
+</body>
+</html>

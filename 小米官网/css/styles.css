@@ -478,8 +478,7 @@
 		.a4 .a41 ul li{
 			width: 75px;
 			height: 80px;
-			margin: 5px 0;
-			padding: 3px 0;
+			padding-top: 4px ;
 			float: left;
 		}
 		.a4 .a41 ul li a{
@@ -494,6 +493,13 @@
 			margin-top: 20px;
 			margin-left: 10px;
 			padding-top: 10px;
+		}
+		.a4 .a41 ul li i{
+			display: block;
+		    height: 24px;
+		    margin-bottom: 4px;
+		    font-size: 24px;
+		    line-height: 24px;
 		}
 		.a4 .a41 ul li a:hover{
 			color: #fff;
@@ -1517,9 +1523,6 @@
 			text-decoration: none;
 			color:#616161;
 		}
-		.a7 .a71 .a711 .li-1 a i{
-		    vertical-align: -10px;
-		}
 		.a7 .a71 .a711 .li-1 a:hover{
 			color: #ff6700;
 		}
@@ -1640,3 +1643,4 @@
 			margin: 100px auto 0;
 			background: url('https://s01.mifile.cn/i/slogan2016.png');
 		}
+		
